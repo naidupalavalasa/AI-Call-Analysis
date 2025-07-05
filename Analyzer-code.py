@@ -16,7 +16,7 @@ print("Loading models...")
 whisper_model = whisper.load_model("base")
 pipeline = Pipeline.from_pretrained(
     "pyannote/speaker-diarization",
-    use_auth_token="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"
+    use_auth_token=" "  #huggingfacetoken 
 )
 
 # input
